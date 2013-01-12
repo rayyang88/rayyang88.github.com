@@ -1,0 +1,179 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,400italic");
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), url("font/fontawesome-webfont.woff") format('woff'), url("font/fontawesome-webfont.ttf") format('truetype'), url("font/fontawesome-webfont.svg#FontAwesomeRegular") format('svg');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee url("bg-page-fabric.png") repeat 0 0;
+  color: #505050;
+  font-family: "微软雅黑";
+  text-shadow: rgba(50,50,50,0.3) 1px 1px 3px;
+  font-size: 17px;
+  line-height: 23px;
+}
+a {
+  text-decoration: none;
+  color: #a39c87;
+}
+a:hover {
+  color: #d31414;
+}
+.clear {
+  clear: both;
+}
+.subtitle {
+  height: 45px;
+  line-height: 45px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+#wrap {
+  margin: 20px auto;
+  padding: 25px 40px;
+  width: 940px;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2), 0 3px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2), 0 3px 15px rgba(0,0,0,0.2);
+}
+#main {
+  float: left;
+  width: 640px;
+}
+#header {
+  width: 250px;
+  float: right;
+}
+#title {
+  height: 120px;
+  width: 250px;
+  border-bottom: 1px solid #a39c87;
+}
+#title h1 {
+  margin-left: 10px;
+  padding-top: 20px;
+  font-size: 40px;
+  letter-spacing: -0.15em;
+}
+#title h1 a {
+  color: #505050;
+}
+#title h2 {
+  margin-top: 27px;
+  font-size: 18px;
+  padding-left: 40px;
+  color: #a39c87;
+  letter-spacing: -0.12em;
+}
+#nav ul {
+  list-style: none;
+}
+#nav a {
+  width: 200px;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+  padding-left: 20px;
+  display: block;
+  font-size: 18px;
+  color: #505050;
+  font-weight: bold;
+}
+.pagetitle {
+  font-size: 42px;
+  height: 120px;
+  line-height: 120px;
+  border-bottom: 1px solid #a39c87;
+  margin-bottom: 20px;
+}
+.post {
+  padding-bottom: 20px;
+}
+.post:first-child {
+  padding-top: 20px;
+}
+.post .posttitle a {
+  font-size: 26px;
+  margin-bottom: 3px;
+}
+.post .postmeta {
+  margin-top: 10px;
+}
+.post .postmeta:after {
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  display: table;
+}
+.post .tags {
+  float: left;
+}
+.post .tags:before {
+  content: "Tags: ";
+}
+.post .date {
+  float: right;
+}
+.post .footer {
+  margin-top: 20px;
+  float: right;
+}
+#comment {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+#pagination {
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+#pagination .prev {
+  float: left;
+  margin-left: 2px;
+}
+#pagination .next {
+  float: right;
+  text-align: right;
+  margin-right: 2px;
+}
+#sidebar div {
+  margin-bottom: 10px;
+}
+#sidebar ul {
+  padding-left: 35px;
+  list-style: none;
+}
+#sidebar ul li {
+  height: 26px;
+  line-height: 26px;
+  font-size: 16px;
+}
+#sidebar ul li small {
+  margin-left: 15px;
+  color: #999;
+}
+#sidebar ul li small:before {
+  content: '(';
+}
+#sidebar ul li small:after {
+  content: ')';
+}
+#footer {
+  margin-top: 10px;
+  border-top: 1px solid #f0eee7;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.content {
+  margin-top: 20px;
+}
+.content a {
+  color: #d31414;
+}
